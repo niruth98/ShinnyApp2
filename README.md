@@ -7,15 +7,20 @@ The main idea is to be bale to indentify the most differential RNA-sequences bet
 rejection as well as how the feature selection affects a models performance.
 
 
-### USAGE
+#### Instruction
 library(tidyverse)<br>
-library(shiny)
-library(ggplot2)
-library(GEOquery)
-library(R.utils)
-library(reshape2)
-library(ggplot2)
-library(limma)
-library(dplyr)
-library(plotly)
-library(ggpubr)
+library(shiny)<br>
+library(ggplot2)<br>
+library(GEOquery)<br>
+library(R.utils)<br>
+library(reshape2)<br>
+library(ggplot2)<br>
+library(limma)<br>
+library(dplyr)<br>
+library(plotly)<br>
+library(ggpubr)<br>
+
+shiny::runGitHub(
+    repo = "ShinnyApp2", 
+    username = "niruth98", 
+    ref = "master")
