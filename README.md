@@ -7,3 +7,15 @@ The main idea is to be bale to indentify the most differential RNA-sequences bet
 rejection as well as how the feature selection affects a models performance.
 
 
+### USAGE
+library(tidyverse)<br>
+library(shiny)
+library(ggplot2)
+library(GEOquery)
+library(R.utils)
+library(reshape2)
+library(ggplot2)
+library(limma)
+library(dplyr)
+library(plotly)
+library(ggpubr)
