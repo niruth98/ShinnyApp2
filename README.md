@@ -20,7 +20,7 @@ library(dplyr)<br>
 library(plotly)<br>
 library(ggpubr)<br>
 
-shiny::runGitHub(
-    repo = "ShinnyApp2", 
-    username = "niruth98", 
+shiny::runGitHub(<br>
+    repo = "ShinnyApp2",<br>
+    username = "niruth98",<br> 
     ref = "master")
