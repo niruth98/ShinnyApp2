@@ -92,7 +92,7 @@ shinyServer(function(input, output) {
       xlab('PC1')+
       ylab('PC2')+
       labs(color='Rejection Status')+
-      ggtitle("PCA Distribution of Stable vs Non-Stable patients based on Feature selection")
+      ggtitle("PCA scatter plot of Stable vs Non-Stable patients based on Feature selection")+
     # ggtitle('Distribution of Stable vs Non-Stable patients based on selected number of Features')+
     theme(plot.title = element_text(hjust=0.5))
     g1
