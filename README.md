@@ -8,19 +8,21 @@ rejection as well as how the feature selection affects a models performance.
 
 
 #### Instruction
-library(tidyverse)<br>
-library(shiny)<br>
-library(ggplot2)<br>
-library(GEOquery)<br>
-library(R.utils)<br>
-library(reshape2)<br>
-library(ggplot2)<br>
-library(limma)<br>
-library(dplyr)<br>
-library(plotly)<br>
-library(ggpubr)<br>
+```
+library(tidyverse)
+library(shiny)
+library(ggplot2)
+library(GEOquery)
+library(R.utils)
+library(reshape2)
+library(ggplot2)
+library(limma)
+library(dplyr)
+library(plotly)
+library(ggpubr)
 
 shiny::runGitHub(<br>
-    repo = "ShinnyApp2",<br>
-    username = "niruth98",<br> 
+    repo = "ShinnyApp2",
+    username = "niruth98", 
     ref = "master")
+```
